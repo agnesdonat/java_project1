@@ -9,11 +9,16 @@ public class class2 {
         System.out.println(a);
         
         // When we need to assign a number that is larger than 2147483647 we use 'long'
-        // 'long' can hold much more values
+        // 'long' can hold much more values: 9223372036854775807
         // We need to specify the data type adding 'L' to the end
         long b = 2147483648L;
         System.out.println(Long.MAX_VALUE);
         System.out.println(b);
+        
+        // 'short' holds less than an 'int': 32767
+        short c = 12;
+        System.out.println(Short.MAX_VALUE);
+        System.out.println(c);
         
 	}
 
