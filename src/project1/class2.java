@@ -28,6 +28,13 @@ public class class2 {
         System.out.println(Byte.MAX_VALUE);
         System.out.println(Byte.MIN_VALUE);
         System.out.println(d);
+        
+        // Numbers with decimal points.
+        // Double has maximum exponents, meaning 0.1234 takes up the same amount of memory as 1234.0
+        // It has the total of 1023 values, be it on the left or the right side of the decimal point
+        double e = 12.0;
+        System.out.println(Double.MAX_EXPONENT);
+        System.out.println(e);
 	}
 
 }
