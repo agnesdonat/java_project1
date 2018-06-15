@@ -20,6 +20,10 @@ public class class2 {
         System.out.println(Short.MAX_VALUE);
         System.out.println(c);
         
+        // 'byte' is the last integer data type and it has an even smaller maximum value of 127 
+        byte d = 126;
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(d);
 	}
 
 }
