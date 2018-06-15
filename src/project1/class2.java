@@ -40,6 +40,10 @@ public class class2 {
         float f = 12.34F;
         System.out.println(Float.MAX_EXPONENT);
         System.out.println(f);
+        
+        // Variable format: data type + name + assignment operator + value
+        // Value has to be the same as data type, i.e. float a = 34.123F etc.
+        // Name can be a combination of numbers and letters but it can't be just a number and it can't start with a number
 	}
 
 }
