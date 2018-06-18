@@ -10,7 +10,7 @@ public class lesson3 {
 		double e = 5.25;
 		
 		double average = (a + b + c + d + e) / 5;
-		System.out.printf("Average is %f", average);
+		System.out.println("Average is " + average);
 
 	}
 
