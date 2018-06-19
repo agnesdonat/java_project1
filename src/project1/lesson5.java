@@ -49,6 +49,29 @@ public class lesson5 {
         }
         
         System.out.println(second_highest);
+        
+        double lowest = price1;
+		
+		if (lowest > price2) {
+			lowest = price2;
+		}
+		
+		if (lowest > price3) {
+			lowest = price3;
+		}
+		
+		if (lowest > price4) {
+			lowest = price4;
+		}
+		
+		if (lowest > price5) {
+			lowest = price5;
+		}
+		
+		System.out.println(lowest);
+	
 	}
+	
+		
 
 }
