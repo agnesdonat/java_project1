@@ -4,11 +4,11 @@ public class lesson6 {
 
 	public static void main(String[] args) {
 		
-		int a = 1;
+		int x = 1;
 		
 		String sampleString = "This is a string";
 		
-		String a1 = "This is " + a;
+		String a1 = "This is " + x;
 		System.out.println(a1);
 		
 		System.out.println(sampleString.charAt(8));
@@ -38,6 +38,23 @@ public class lesson6 {
 		System.out.println(sampleString.replaceAll(" is", " is not").replaceAll("a string", "a boolean"));
 		// Chaining methods together
 		
+		/** Create a program that take these five strings
+		and returns a new string with the first and last letters of the five original strings.
+		String result = "hhhhwiyogp";
+		**/
+		
+		String a,b,c,d,e;
+		
+		a = "hi";
+		b = "hey";
+		c = "hello";
+		d = "hows it going";
+		e = "whats up";
+				
+	    String result = "" + a.charAt(0) + b.charAt(0) + c.charAt(0) + d.charAt(0) + e.charAt(0)
+	     + a.charAt(a.length() - 1) + b.charAt(b.length() - 1) + c.charAt(c.length() - 1) + d.charAt(d.length() - 1) + e.charAt(e.length() - 1);
+	    
+	    System.out.println(result);
 	}
 
 }
