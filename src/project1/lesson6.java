@@ -14,6 +14,9 @@ public class lesson6 {
 		System.out.println(sampleString.charAt(8));
 		// It prints the 8th character of the string
 		// charAt is method of the String class
+		
+		System.out.println(sampleString.substring(4, 8));
+		// Substring starts at the 4th character (included) and prints every character up to the 8th (not included)
 
 	}
 
