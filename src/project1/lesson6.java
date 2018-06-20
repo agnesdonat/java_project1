@@ -29,8 +29,14 @@ public class lesson6 {
 		// Returns true
 		
 		System.out.println(sampleString == new String("This is a string"));
-		// Checks if it is the same Objects
+		// Checks if it is the same exact Object; not if the values are the same
 		// Returns false
+		
+		System.out.println(sampleString.replaceAll(" is", " is not"));
+		// Replaces some contents of the string
+		
+		System.out.println(sampleString.replaceAll(" is", " is not").replaceAll("a string", "a boolean"));
+		// Chaining methods together
 		
 	}
 
