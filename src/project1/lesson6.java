@@ -19,6 +19,10 @@ public class lesson6 {
 		// Substring starts at the 4th character (included) and prints every character up to the 8th (not included)
         
 		System.out.println(sampleString.length());
+		// Prints length of the string
+		
+		System.out.println(sampleString.equals("This is not a string"));
+		// Compares sampleString value to the string in parentheses 
 	}
 
 }
