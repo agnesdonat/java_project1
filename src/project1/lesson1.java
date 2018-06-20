@@ -12,6 +12,8 @@ public class lesson1 {
 		for (int i = 0; i < times; i++) 
 			System.out.println(name);
 	}
+	
+	
 }
 
 
