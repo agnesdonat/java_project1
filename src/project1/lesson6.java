@@ -23,6 +23,15 @@ public class lesson6 {
 		
 		System.out.println(sampleString.equals("This is not a string"));
 		// Compares sampleString value to the string in parentheses 
+		// Returns true or false
+		
+		System.out.println(sampleString == "This is a string");
+		// Returns true
+		
+		System.out.println(sampleString == new String("This is a string"));
+		// Checks if it is the same Objects
+		// Returns false
+		
 	}
 
 }
