@@ -17,7 +17,8 @@ public class lesson6 {
 		
 		System.out.println(sampleString.substring(4, 8));
 		// Substring starts at the 4th character (included) and prints every character up to the 8th (not included)
-
+        
+		System.out.println(sampleString.length());
 	}
 
 }
