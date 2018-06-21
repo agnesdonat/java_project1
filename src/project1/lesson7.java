@@ -12,12 +12,15 @@ public class lesson7 {
 		c = 87*65;
 		
 		if (a > b && a > c) {
-			System.out.println(a + " is the highest");
+			System.out.println("a = " + a + " is the highest");
 		} else if (b > a && b > c) {
-			System.out.println(b + " is the highest");
+			System.out.println("b = " + b + " is the highest");
+		} else if ( c > a && c > b) {
+			System.out.println("c =" + c + " is the highest");
 		} else {
-			System.out.println(c + " is the highest");
+			System.out.println("At least two values are equal");
 		}
+		
 	}
 
 }
