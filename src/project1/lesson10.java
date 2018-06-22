@@ -1,5 +1,6 @@
 package project1;
 
+//need to import Scanner class
 import java.util.Scanner;
 
 public class lesson10 {
