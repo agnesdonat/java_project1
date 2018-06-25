@@ -18,18 +18,18 @@ public class lesson11 {
 		r.nextLine();
 		System.out.println("Enter add or subtract");
 		String c = r.nextLine();
-		//System.out.println(c);
-		//System.out.println(c.equals("add"));
-		
-		/**if (c == "add") {
+				
+		if (c.equals("add")) {
 			System.out.println(a + " + " + b + " equals to " + (a + b));
-		} else if (c == "subtract") {
+		} else if (c.equals("subtract")) {
 			System.out.println(a + " - " + b + " equals to " + (a - b));
 		} else {
 			System.out.println("Invalid command");
-		}**/
+		}
+		// The assignment operator was not working for strings
+		// equals() method had to be used to compare user input with operations
 		
-		switch(c) {
+		/**switch(c) {
 		case "add":
 			System.out.println(a + b);
 			break;
@@ -38,7 +38,7 @@ public class lesson11 {
 			break;
 		default:
 			System.out.println("Invalid command");
-		}
+		}**/
 
 	}
 
